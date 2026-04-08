@@ -1,0 +1,48 @@
+# ─── Python / Django ───────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtualenv
+venv/
+env/
+.venv/
+
+# Django
+*.log
+db.sqlite3
+staticfiles/
+media/
+
+# Variáveis de ambiente — NUNCA commitar
+.env
+.env.local
+.env.production
+
+# ─── Node / React ──────────────────────────────────────────────────────────
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+frontend/.env.production
+
+# ─── Sistema operacional ───────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ─── IDEs ──────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ─── Outros ────────────────────────────────────────────────────────────────
+*.bak
+*.tmp
